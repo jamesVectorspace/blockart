@@ -1,0 +1,15 @@
+{
+    "name": "Paystack",
+    "alias": "paystack",
+    "version": "1.0",
+    "gateway": true,
+    "single-payment": true,
+    "online": true,
+    "description": "",
+    "keywords": [],
+    "priority": 11,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,26 @@
+{
+    "name": "techvillage/striperecurring-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\StripeRecurring\\": ""
+        }
+    },
+    "require": {
+        "stripe/stripe-php": "^7.113"
+    }
+}

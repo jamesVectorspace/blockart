@@ -1,0 +1,13 @@
+{
+    "name": "StripeRecurring",
+    "alias": "striperecurring",
+    "version": "1.0",
+    "gateway": true,
+    "recurring": true,
+    "online": true,
+    "description": "Webhook link : http://your_domain_name/gateway/pay/striperecurring/payment_webhook",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "files": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "AuthorizeNet",
+    "alias": "authorizenet",
+    "version": "1.0",
+    "description": "",
+    "gateway": true,
+    "single-payment": true,
+    "online": true,
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

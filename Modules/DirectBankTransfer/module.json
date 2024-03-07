@@ -1,0 +1,15 @@
+{
+    "name": "DirectBankTransfer",
+    "alias": "directbanktransfer",
+    "version": "1.0",
+    "gateway": true,
+    "offline" : true,
+    "single-payment": true,
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

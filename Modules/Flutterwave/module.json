@@ -1,0 +1,14 @@
+{
+    "name": "Flutterwave",
+    "alias": "flutterwave",
+    "description": "",
+    "keywords": [],
+    "gateway": true,
+    "single-payment": true,
+    "online": true,
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

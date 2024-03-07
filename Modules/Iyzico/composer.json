@@ -1,0 +1,27 @@
+{
+    "name": "techvillage/iyizco-module",
+    "type": "martvill-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Iyzico\\": ""
+        }
+    },
+    "require": {
+        "iyzico/iyzipay-php": "^2.0"
+    }
+}

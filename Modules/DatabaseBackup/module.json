@@ -1,0 +1,17 @@
+{
+    "name": "DatabaseBackup",
+    "alias": "databasebackup",
+    "description": "",
+    "keywords": [],
+    "priority": 30,
+    "providers": [
+        "Modules\\DatabaseBackup\\Providers\\DatabaseBackupServiceProvider",
+        "Modules\\DatabaseBackup\\Providers\\DropboxServiceProvider",
+        "Modules\\DatabaseBackup\\Providers\\GoogleDriveServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Http/helper.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,28 @@
+{
+    "name": "techvillage/databasebackup-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DatabaseBackup\\": ""
+        }
+    },
+    "require": {
+        "spatie/laravel-backup": "^8.1",
+        "spatie/flysystem-dropbox": "^3.0",
+        "masbug/flysystem-google-drive-ext": "^2.2"
+    }
+}

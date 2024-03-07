@@ -1,0 +1,22 @@
+{
+    "name": "techvillage/esewa-module",
+    "type": "martvill-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Esewa\\": ""
+        }
+    }
+}

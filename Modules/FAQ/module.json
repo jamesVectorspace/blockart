@@ -1,0 +1,9 @@
+{
+    "name": "FAQ",
+    "alias": "faq",
+    "description": "",
+    "keywords": [],
+    "priority": 90,
+    "providers": [],
+    "files": []
+}

@@ -1,0 +1,271 @@
+{
+    "addons": [
+        {
+            "name": "AuthorizeNet",
+            "alias": "authorizenet",
+            "description": "AuthorizeNet Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/AuthorizeNet/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "CheckPayments",
+            "alias": "checkpayments",
+            "description": "CheckPayments Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/CheckPayments/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Coinbase",
+            "alias": "coinbase",
+            "description": "Coinbase Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Coinbase/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Coinpayment",
+            "alias": "coinpayment",
+            "description": "Coinpayment Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Coinpayment/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "DirectBankTransfer",
+            "alias": "directbanktransfer",
+            "description": "DirectBankTransfer Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/DirectBankTransfer/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "FAQ",
+            "alias": "faq",
+            "description": "FAQ Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/FAQ/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Flutterwave",
+            "alias": "flutterwave",
+            "description": "Flutterwave Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Flutterwave/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Instamojo",
+            "alias": "instamojo",
+            "description": "Instamojo Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Instamojo/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "MtnMomo",
+            "alias": "mtnmomo",
+            "description": "MtnMomo Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/MtnMomo/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "NGenius",
+            "alias": "ngenius",
+            "description": "NGenius Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/NGenius/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Paypal",
+            "alias": "paypal",
+            "description": "Paypal Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Paypal/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Paystack",
+            "alias": "paystack",
+            "description": "Paystack Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Paystack/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Paytm",
+            "alias": "paytm",
+            "description": "Paytm Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Paytm/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Razorpay",
+            "alias": "razorpay",
+            "description": "Razorpay Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Razorpay/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Razorpay",
+            "alias": "razorpay",
+            "description": "Razorpay Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Razorpay/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Reviews",
+            "alias": "reviews",
+            "description": "Reviews Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Reviews/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "SslCommerz",
+            "alias": "sslcommerz",
+            "description": "SslCommerz Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/SslCommerz/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "Stripe",
+            "alias": "stripe",
+            "description": "Stripe Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/Stripe/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }, {
+            "name": "StripeRecurring",
+            "alias": "striperecurring",
+            "description": "StripeRecurring Description",
+            "image": [
+                "https://staging.artifism.techvill.net/Modules/StripeRecurring/Resources/assets/thumbnail.png"
+            ],
+            "price_type": "free",
+            "price": "Free",
+            "url": "https://www.techvill.net",
+            "version": "1.0",
+            "require_version": "1.0",
+            "last_update_date": "06-07-2023",
+            "meta": []
+        }
+    ]
+}

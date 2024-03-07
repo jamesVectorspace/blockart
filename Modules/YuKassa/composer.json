@@ -1,0 +1,27 @@
+{
+    "name": "techvillage/yukassa",
+    "type": "artifism-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\YuKassa\\": ""
+        }
+    },
+    "require": {
+        "yoomoney/yookassa-sdk-php": "^3.1"
+    }
+}

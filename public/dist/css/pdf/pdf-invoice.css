@@ -1,0 +1,316 @@
+@page {
+    size: auto;
+    margin: 20px;
+}
+#invoice-view-container{
+    padding-top: 12px;
+}
+.artifism-logo {
+    height: 42px;
+    width: 155px;
+    object-fit: contain;
+}
+.invoice-side {
+    width: 50%;
+    float: left;
+}
+.address-side {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+.address-side .name {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px;
+    line-height: 18px;
+    text-align: left;
+    color: #141414;
+}
+.address-side .phone-email {
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #141414;
+    margin-top: 4px;
+}
+
+.clear-both {
+    clear: both;
+}
+.company-info-url{
+    color: #763CD4;
+}
+.border-1{
+    border-top: 1px solid #DFDFDF; 
+    margin-top:36px;
+}
+.invoice{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0px;
+    margin-top:34px;
+    margin-bottom:0px;
+    line-height: 30px;
+    color: #141414;
+    text-transform: uppercase;
+}
+.code{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #141414;
+}
+.mt-36px{
+    margin-top:36px;
+}
+.billed-to{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #898989; margin-top:0px;
+    margin-bottom:0px;
+}
+.sub-user-name{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top:0px;
+    padding: 0px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.sub-user-phn{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.sub-user-email{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.sub-user-add{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.status{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3C914F;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-transform: uppercase;
+}
+.subscription{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #898989;
+}
+.active-status{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.bill-date{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color: #141414;
+}
+.mt-28px{
+    margin-top:28px
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.thead {
+    background-color: #F6F3F2;
+    width: 100%;
+}
+.table .thead tr {
+    border-radius: 6px;
+    width: 100%;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    background-color: #F6F3F2;
+    color: #898989;
+}
+.table .thead tr th {
+    padding: 12px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #898989;
+    text-transform: uppercase;
+} 
+.table .thead tr td {
+    padding: 10px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #141414;
+    text-transform: uppercase;
+} 
+.table tbody tr .td {
+    padding: 24px 12px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.keep-in-touch {
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    color: #141414;
+}
+.concern-queries {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #898989;
+}
+.email {
+    color: #763CD4;
+    text-decoration: underline;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.helpline {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: #141414;
+}
+.copy-right {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    color: #898989;
+}
+.phone-number {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #141414;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.width-280{
+    width:220px
+}
+.border-bottom{
+    border-bottom: 1px solid #dfdfdf;
+}
+.footer-text{
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 8px 12px;
+}
+.color-14{
+    color: #141414 !important;
+}
+.color-89{
+    color: #898989 !important;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.whitespace-nowrap{
+    white-space: nowrap;
+}

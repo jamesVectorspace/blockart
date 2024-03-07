@@ -1,0 +1,15 @@
+{
+    "name": "MtnMomo",
+    "alias": "mtnmomo",
+    "version": "1.0",
+    "single-payment": true,
+    "online": true,
+    "description": "",
+    "gateway": true,
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

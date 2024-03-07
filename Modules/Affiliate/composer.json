@@ -1,0 +1,23 @@
+{
+    "name": "TechVillage/Affiliate-module",
+    "description": "laravel-module",
+    "authors": [
+        {
+            "name": "Sakawat Hossain Rony",
+            "email": "sakawat.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Affiliate\\": ""
+        }
+    }
+}

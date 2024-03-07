@@ -1,0 +1,12 @@
+{
+    "name": "Subscription",
+    "alias": "subscription",
+    "description": "",
+    "core": true,
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "StorageDriver",
+    "alias": "storagedriver",
+    "core": true,
+    "description": "",
+    "keywords": [],
+    "priority": 54,
+    "providers": [],
+    "aliases": {},
+    "files": [
+        "Http/Helpers/helper.php",
+        "vendor/autoload.php"
+    ],
+    "requires": []
+}

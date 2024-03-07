@@ -1,0 +1,15 @@
+{
+    "name": "PaypalRecurring",
+    "alias": "paypalrecurring",
+    "version": "1.0",
+    "description": "Webhook link : http://your_domain_name/gateway/pay/paypalrecurring/payment_webhook",
+    "gateway": true,
+    "recurring": true,
+    "online": true,
+    "keywords": [],
+    "priority": 0,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

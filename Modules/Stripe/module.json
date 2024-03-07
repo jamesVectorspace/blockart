@@ -1,0 +1,15 @@
+{
+    "name": "Stripe",
+    "alias": "stripe",
+    "version": "1.0",
+    "gateway": true,
+    "single-payment": true,
+    "online": true,
+    "description": "",
+    "keywords": [],
+    "priority": 16,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

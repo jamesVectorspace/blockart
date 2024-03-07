@@ -1,0 +1,23 @@
+{
+    "name": "techvillage/gdpr-module",
+    "type": "artifism-module",
+    "authors": [
+        {
+            "name": "Md. Mostafijur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Gdpr\\": ""
+        }
+    }
+}

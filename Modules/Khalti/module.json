@@ -1,0 +1,15 @@
+{
+    "name": "Khalti",
+    "alias": "khalti",
+    "version": "1.0",
+    "gateway": true,
+    "single-payment": true,
+    "online": true,
+    "description": "",
+    "keywords": [],
+    "priority": 1000,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @package Stripe
+ * @author TechVillage <support@techvill.org>
+ * @contributor Muhammad AR Zihad <[zihad.techvill@gmail.com]>
+ * @created 06-02-2022
+ */
+
+namespace Modules\Stripe\Entities;
+
+use Modules\Gateway\Entities\Gateway;
+use Modules\Stripe\Scope\StripeScope;
+
+class Stripe extends Gateway
+{
+    /**
+     * Table
+     *
+     * @var string
+     */
+    protected $table = 'gateways';
+
+    /**
+     * Appends
+     *
+     * @var array
+     */
+    protected $appends = ['image_url'];
+
+    /**
+     * Booted
+     *
+     * @return void
+     */
+    protected static function booted()
+    {
+        static::addGlobalScope(new StripeScope);
+    }
+}

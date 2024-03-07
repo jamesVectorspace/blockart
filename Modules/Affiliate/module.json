@@ -1,0 +1,13 @@
+{
+    "name": "Affiliate",
+    "alias": "affiliate",
+    "version": "1.0",
+    "type" : "premium",
+    "description": "",
+    "keywords": [],
+    "priority": 51,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

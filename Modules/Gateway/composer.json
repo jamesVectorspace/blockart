@@ -1,0 +1,23 @@
+{
+    "name": "techvillage/gateway",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Mostafijeur Rahman",
+            "email": "mostafijur.techvill@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Gateway\\": ""
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Gdpr",
+    "alias": "gdpr",
+    "description": "",
+    "keywords": [],
+    "priority": 90,
+    "providers": [],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
