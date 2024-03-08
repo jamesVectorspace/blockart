@@ -3,6 +3,7 @@
 namespace Modules\DatabaseBackup\Database\Seeders\versions\v1_8_0;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 use Modules\MenuBuilder\Http\Models\MenuItems;
 
 class MenuItemsTableSeeder extends Seeder
@@ -14,19 +15,19 @@ class MenuItemsTableSeeder extends Seeder
      */
     public function run() {
 
-        addMenuItem('admin', 'Tools', [
-            'label' => 'Tools',
-            'link' => NULL,
-            'params' => NULL,
-            'is_default' => 1,
-            'icon' => 'fas fa-cogs',
-            'parent' => 0,
-            'sort' => 47,
-            'class' => NULL,
-            'menu' => 1,
-            'depth' => 0,
-            'is_custom_menu' => 0,
-        ]);
-
+        $resetDbMenu = MenuItems::where(['link' => NULL, 'label' => 'Tools', 'menu' => 1])->first();
+        $resetDbMenu->update([
+                'label' => 'Tools',
+                'link' => NULL,
+                'params' => NULL,
+                'is_default' => 1,
+                'icon' => 'fas fa-cogs',
+                'parent' => 0,
+                'sort' => 47,
+                'class' => NULL,
+                'menu' => 1,
+                'depth' => 0,
+                'is_custom_menu' => 0
+         ]);
     }
 }

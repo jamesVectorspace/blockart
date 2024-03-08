@@ -15,7 +15,8 @@ class MenuItemsTableSeeder extends Seeder
     public function run() {
 
         $addonMenu = MenuItems::where(['link' => 'addons', 'label' => 'addons', 'menu' => 1])->first();
-        $addonMenu->update([
+        if($addonMenu) {
+            $addonMenu->update([
                 'label' => 'Addon Manager',
                 'link' => 'addons',
                 'params' => '{"permission":"App\\\\Http\\\\Controllers\\\\AddonsMangerController@index","route_name":["addon.index","addon.switch-status","addon.remove","addon.upload"]}',
@@ -28,6 +29,8 @@ class MenuItemsTableSeeder extends Seeder
                 'depth' => 0,
                 'is_custom_menu' => 0,
             ]);
+        }
+       
 
         $cleanMenu = MenuItems::where(['link' => 'clear-cache', 'menu' => 1])->first();
         if ($cleanMenu) {

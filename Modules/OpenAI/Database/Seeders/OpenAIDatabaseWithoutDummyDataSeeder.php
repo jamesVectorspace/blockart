@@ -20,8 +20,6 @@ use Modules\OpenAI\Database\Seeders\versions\v1_5_0\DatabaseSeeder as DatabaseSe
 use Modules\OpenAI\Database\Seeders\versions\v1_6_0\DatabaseSeeder as DatabaseSeederV16;
 use Modules\OpenAI\Database\Seeders\versions\v1_7_0\DatabaseSeeder as DatabaseSeederV17;
 
-use Modules\OpenAI\Database\Seeders\versions\v1_8_0\DatabaseSeeder as DatabaseSeederV18;
-
 
 class OpenAIDatabaseWithoutDummyDataSeeder extends Seeder
 {
@@ -63,7 +61,5 @@ class OpenAIDatabaseWithoutDummyDataSeeder extends Seeder
         $this->call(DatabaseSeederV15::class);
         $this->call(DatabaseSeederV16::class);
         $this->call(DatabaseSeederV17::class);
-
-        $this->call(DatabaseSeederV18::class);
     }
 }

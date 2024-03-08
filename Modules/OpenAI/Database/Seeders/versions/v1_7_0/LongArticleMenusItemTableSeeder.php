@@ -28,6 +28,20 @@ class LongArticleMenusItemTableSeeder extends Seeder
                 'depth' => 1,
                 'is_custom_menu' => 0
          ]);
+        } else {
+            DB::table('menu_items')->insert([
+                    'label' => 'Long Article',
+                    'link' => 'articles',
+                    'params' => '{"permission":"Modules\\\\OpenAI\\\\Http\\\\Controllers\\\\Admin\\\\LongArticleController@index","route_name":["admin.long_article.index", "admin.long_article.edit"]}',
+                    'is_default' => 1,
+                    'icon' => NULL,
+                    'parent' => 143,
+                    'sort' => 12,
+                    'class' => NULL,
+                    'menu' => 1,
+                    'depth' => 1,
+                    'is_custom_menu' => 0
+                ]);
         }
 
     }

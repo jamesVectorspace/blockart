@@ -4,6 +4,7 @@ namespace Modules\Reviews\Database\Seeders\versions\v1_8_0;
 
 use Illuminate\Database\Seeder;
 use Modules\MenuBuilder\Http\Models\MenuItems;
+use Illuminate\Support\Facades\DB;
 
 class MenuItemsTableSeeder extends Seeder
 {
@@ -19,17 +20,19 @@ class MenuItemsTableSeeder extends Seeder
             $resetDbMenu->delete();
         }
 
-        addMenuItem('admin', 'Reviews', [
-            'label' => 'Reviews',
-            'link' => 'reviews',
-            'params' => '{"permission":"Modules\\\\Reviews\\\\Http\\\\Controllers\\\\ReviewsController@index","route_name":["admin.review", "admin.review.create", "admin.review.edit"], "menu_level":"1"}',
-            'is_default' => 1,
-            'parent' => 57,
-            'sort' => 100,
-            'class' => NULL,
-            'menu' => 1,
-            'depth' => 0,
-            'is_custom_menu' => 0,
+        DB::table('menu_items')->insert([
+            [
+                'label' => 'Reviews',
+                'link' => 'reviews',
+                'params' => '{"permission":"Modules\\\\Reviews\\\\Http\\\\Controllers\\\\ReviewsController@index","route_name":["admin.review", "admin.review.create", "admin.review.edit"], "menu_level":"1"}',
+                'is_default' => 1,
+                'parent' => 57,
+                'sort' => 100,
+                'class' => NULL,
+                'menu' => 1,
+                'depth' => 0,
+                'is_custom_menu' => 0
+            ],
         ]);
 
     }
